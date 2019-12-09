@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 100px;
   pointer-events: none;
 }
 
@@ -14,13 +14,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -34,5 +34,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px 20px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+
+  &:focus {
+    border-bottom-color: aqua;
   }
 }

@@ -1,0 +1,27 @@
+.card {
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 200px;
+    min-height: 300px;
+
+    &.done {
+        background-color: grey;
+    }
+
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .task {
+        text-align: left;
+        word-break: break-all;
+    }
+}
+
+.plus img {
+    width: 20px;
+}
